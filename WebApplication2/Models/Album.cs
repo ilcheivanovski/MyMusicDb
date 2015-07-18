@@ -8,6 +8,7 @@ namespace MyMusicDb.Models
 {
     public class Album
     {
+        [Key]
         public int ID { get; set; }
         public string Title { get; set; }
         [DataType(DataType.DateTime)]

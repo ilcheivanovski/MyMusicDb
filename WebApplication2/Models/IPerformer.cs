@@ -7,7 +7,7 @@ namespace MyMusicDb.Models
 {
     public interface IPerformer
     {
-        List<Album> Albums { get; set; }
-        List<Song> Songs { get; set; }
+        ICollection<Album> Albums { get; set; }
+        ICollection<Song> Songs { get; set; }
     }
 }

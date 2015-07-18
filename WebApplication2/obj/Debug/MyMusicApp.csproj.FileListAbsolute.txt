@@ -23,3 +23,33 @@ D:\Documents\Visual Studio 2015\Projects\WebApplication3\WebApplication2\WebAppl
 D:\Documents\Visual Studio 2015\Projects\WebApplication3\WebApplication2\WebApplication2\obj\Debug\MyMusicApp.csproj.GenerateResource.Cache
 D:\Documents\Visual Studio 2015\Projects\WebApplication3\WebApplication2\WebApplication2\obj\Debug\WebApplication2.dll
 D:\Documents\Visual Studio 2015\Projects\WebApplication3\WebApplication2\WebApplication2\obj\Debug\WebApplication2.pdb
+C:\Users\Student\Desktop\MyMusicDb\WebApplication2\bin\WebApplication2.dll.config
+C:\Users\Student\Desktop\MyMusicDb\WebApplication2\bin\WebApplication2.dll
+C:\Users\Student\Desktop\MyMusicDb\WebApplication2\bin\WebApplication2.pdb
+C:\Users\Student\Desktop\MyMusicDb\WebApplication2\bin\EntityFramework.dll
+C:\Users\Student\Desktop\MyMusicDb\WebApplication2\bin\EntityFramework.SqlServer.dll
+C:\Users\Student\Desktop\MyMusicDb\WebApplication2\bin\System.Web.Helpers.dll
+C:\Users\Student\Desktop\MyMusicDb\WebApplication2\bin\System.Web.Mvc.dll
+C:\Users\Student\Desktop\MyMusicDb\WebApplication2\bin\System.Web.Razor.dll
+C:\Users\Student\Desktop\MyMusicDb\WebApplication2\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Student\Desktop\MyMusicDb\WebApplication2\bin\System.Web.Webpages.dll
+C:\Users\Student\Desktop\MyMusicDb\WebApplication2\bin\System.Web.Webpages.Razor.dll
+C:\Users\Student\Desktop\MyMusicDb\WebApplication2\bin\EntityFramework.xml
+C:\Users\Student\Desktop\MyMusicDb\WebApplication2\bin\EntityFramework.SqlServer.xml
+C:\Users\Student\Desktop\MyMusicDb\WebApplication2\bin\System.Web.Razor.xml
+C:\Users\Student\Desktop\MyMusicDb\WebApplication2\bin\System.Web.Webpages.xml
+C:\Users\Student\Desktop\MyMusicDb\WebApplication2\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Student\Desktop\MyMusicDb\WebApplication2\bin\System.Web.Webpages.Razor.xml
+C:\Users\Student\Desktop\MyMusicDb\WebApplication2\bin\System.Web.Helpers.xml
+C:\Users\Student\Desktop\MyMusicDb\WebApplication2\bin\System.Web.Mvc.xml
+C:\Users\Student\Desktop\MyMusicDb\WebApplication2\obj\Debug\MyMusicApp.csprojResolveAssemblyReference.cache
+C:\Users\Student\Desktop\MyMusicDb\WebApplication2\obj\Debug\WebApplication2.Migrations.InitialCreate.resources
+C:\Users\Student\Desktop\MyMusicDb\WebApplication2\obj\Debug\MyMusicApp.csproj.GenerateResource.Cache
+C:\Users\Student\Desktop\MyMusicDb\WebApplication2\obj\Debug\WebApplication2.dll
+C:\Users\Student\Desktop\MyMusicDb\WebApplication2\obj\Debug\WebApplication2.pdb
+C:\Users\Student\Desktop\MyMusicDb\WebApplication2\obj\Debug\WebApplication2.Migrations.RelationBandMembers.resources
+C:\Users\Student\Desktop\MyMusicDb\WebApplication2\obj\Debug\WebApplication2.Migrations.Test.resources
+C:\Users\Student\Desktop\MyMusicDb\WebApplication2\obj\Debug\WebApplication2.Migrations.Test1.resources
+C:\Users\Student\Desktop\MyMusicDb\WebApplication2\obj\Debug\WebApplication2.Migrations.Test2.resources
+C:\Users\Student\Desktop\MyMusicDb\WebApplication2\obj\Debug\WebApplication2.Migrations.Test3.resources
+C:\Users\Student\Desktop\MyMusicDb\WebApplication2\obj\Debug\WebApplication2.Migrations.Test4.resources

@@ -139,6 +139,30 @@
     <Compile Include="Migrations\201506191203573_InitialCreate.Designer.cs">
       <DependentUpon>201506191203573_InitialCreate.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201507181448457_RelationBandMembers.cs" />
+    <Compile Include="Migrations\201507181448457_RelationBandMembers.Designer.cs">
+      <DependentUpon>201507181448457_RelationBandMembers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201507181455301_Test.cs" />
+    <Compile Include="Migrations\201507181455301_Test.Designer.cs">
+      <DependentUpon>201507181455301_Test.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201507181456141_Test1.cs" />
+    <Compile Include="Migrations\201507181456141_Test1.Designer.cs">
+      <DependentUpon>201507181456141_Test1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201507181458244_Test2.cs" />
+    <Compile Include="Migrations\201507181458244_Test2.Designer.cs">
+      <DependentUpon>201507181458244_Test2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201507181500374_Test3.cs" />
+    <Compile Include="Migrations\201507181500374_Test3.Designer.cs">
+      <DependentUpon>201507181500374_Test3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201507181501240_Test4.cs" />
+    <Compile Include="Migrations\201507181501240_Test4.Designer.cs">
+      <DependentUpon>201507181501240_Test4.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Album.cs" />
     <Compile Include="Models\Band.cs" />
@@ -171,6 +195,24 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201506191203573_InitialCreate.resx">
       <DependentUpon>201506191203573_InitialCreate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201507181448457_RelationBandMembers.resx">
+      <DependentUpon>201507181448457_RelationBandMembers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201507181455301_Test.resx">
+      <DependentUpon>201507181455301_Test.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201507181456141_Test1.resx">
+      <DependentUpon>201507181456141_Test1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201507181458244_Test2.resx">
+      <DependentUpon>201507181458244_Test2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201507181500374_Test3.resx">
+      <DependentUpon>201507181500374_Test3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201507181501240_Test4.resx">
+      <DependentUpon>201507181501240_Test4.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

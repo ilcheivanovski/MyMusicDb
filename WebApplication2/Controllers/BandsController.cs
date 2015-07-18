@@ -18,7 +18,7 @@ namespace WebApplication2.Controllers
         // GET: Bands
         public ActionResult Index()
         {
-            var bands = db.Bands.Include(b => b.Musician);
+            var bands = db.Bands.Include(b => b.Members);
             return View(bands.ToList());
         }
 
@@ -58,7 +58,7 @@ namespace WebApplication2.Controllers
                 return RedirectToAction("Index");
             }
 
-            ViewBag.MusicianID = new SelectList(db.Musicians, "ID", "Name", band.MusicianID);
+            ViewBag.MusicianID = new SelectList(db.Musicians, "ID", "Name", band.Members.First().ID);
             return View(band);
         }
 
@@ -74,7 +74,7 @@ namespace WebApplication2.Controllers
             {
                 return HttpNotFound();
             }
-            ViewBag.MusicianID = new SelectList(db.Musicians, "ID", "Name", band.MusicianID);
+            ViewBag.MusicianID = new SelectList(db.Musicians, "ID", "Name", band.Members.First().ID);
             return View(band);
         }
 
@@ -91,7 +91,7 @@ namespace WebApplication2.Controllers
                 db.SaveChanges();
                 return RedirectToAction("Index");
             }
-            ViewBag.MusicianID = new SelectList(db.Musicians, "ID", "Name", band.MusicianID);
+            ViewBag.MusicianID = new SelectList(db.Musicians, "ID", "Name", band.Members.First().ID);
             return View(band);
         }
 

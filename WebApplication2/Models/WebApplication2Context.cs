@@ -16,8 +16,9 @@ namespace WebApplication2.Models
         // automatically whenever you change your model schema, please use data migrations.
         // For more information refer to the documentation:
         // http://msdn.microsoft.com/en-us/data/jj591621.aspx
-    
-        public WebApplication2Context() : base("name=WebApplication2Context")
+
+        public WebApplication2Context()
+            : base("name=WebApplication2Context")
         {
         }
 
@@ -44,11 +45,12 @@ namespace WebApplication2.Models
                 .HasForeignKey(d => d.AlbumID)
                 .WillCascadeOnDelete(true);
 
+
             //// Configure Band as FK for Musician
-            //modelBuilder.Entity<Musician>()
-            //            .HasOptional(s => s.Band) // Mark Musician is optional for Band
-            //            .WithRequired(ad => ad.Musician) // Create inverse relationship
-            //            .WillCascadeOnDelete(true);
+            modelBuilder.Entity<Band>()
+                        .HasMany(b => b.Members) // Mark Musician is optional for Band
+                        .WithOptional(m => m.Band) // Create inverse relationship
+                        .WillCascadeOnDelete(false);
         }
     }
 }
